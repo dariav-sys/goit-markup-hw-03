@@ -190,14 +190,18 @@ ul {
 }
 .section-picture {	
 	display: flex;
+
 	margin-bottom: 94px;	
 	
 }
 
 .item-picture {
 	width: 370px;
-	margin-right: 30px;
-	
+	margin-right: 30px;	
+}
+
+.item-picture:last-child {
+	margin-right: 0;
 }
 
 .team-employees {
@@ -267,11 +271,11 @@ ul {
 	margin-right: 30px;
 }
 
-.footer {
+/* .footer {
 	background-color: #2f303a;
 	color: #ffffff;
 	margin: 0;
-}
+} */
 
 .footer p {
 	color: #ffffff;
@@ -302,8 +306,8 @@ ul {
 
 .buttons {
 	display: flex;
-	margin-top: 60px;
-	margin-bottom: 30px;
+	margin-top: 94px;
+	margin-bottom: 50px;
 	width: 611px;
 	margin-right: auto;
 	margin-left: auto;
@@ -374,6 +378,7 @@ a {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-bottom:94px;
 	margin-left: auto;
 	margin-right: auto;
 	outline: 1px solid red;
@@ -381,8 +386,7 @@ a {
 
 .flex-list {
 	display: flex;
-	flex-wrap: wrap;
-	
+	flex-wrap: wrap;	
 }
 
 .flex-item {
@@ -400,13 +404,22 @@ margin-right:0;
 
 }
 
+.footer {
+	background-color: #2f303a;
+
+}
 .container-footer {
+	outline: 1px solid white;	
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-left: auto;
+	margin-right: auto;		
 	
-	margin-right: auto;
-	margin-left:auto;
+	color: #ffffff;
+	
 }
 
 

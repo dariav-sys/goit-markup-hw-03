@@ -156,6 +156,7 @@ ul {
 .feature-list {
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 94px;
 }
 
 .feature-item {	
@@ -233,13 +234,16 @@ ul {
 
 .section.team {	
 	background-color: #f5f4fa;
-	/* padding-top: 0;	 */
-	/* padding-bottom: 94px; */
+	
+}
+
+.section.features {
+	padding-bottom: 0;
 }
 
 .team-employees {
 	display: flex;
-	/* marging-top: 94px; */
+	
 	text-align: center;	
 }
 

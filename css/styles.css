@@ -190,6 +190,7 @@ ul {
 	/* padding-top: 94px; */
 	 
 	margin-bottom:50px;
+	/* padding-top:0; */
 }
 
 .section-picture {	
@@ -239,6 +240,8 @@ ul {
 
 .section.features {
 	padding-bottom: 0;
+	margin-bottom: 0;
+	/* padding-top: 0; */
 }
 
 .team-employees {

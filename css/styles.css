@@ -322,13 +322,21 @@ ul {
 }
 
 .portfolio-button.all {
-	padding: 6px 22px 6px 22px;
-	align-self: center;
+	padding-left: 22px;
+	padding-right: 22px;
+	text-align: center;
 }
+
+.portfolio-button.all {
+	width: 
+	
+
 
 .portfolio-button:last-child {
 	margin-right: 0;
 }
+
+
 
 .examples-title a {
 	color: var(--primary-black-color);

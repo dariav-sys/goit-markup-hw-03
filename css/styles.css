@@ -59,7 +59,7 @@ ul {
 
 .auth-nav {
 	display: flex;	
-	outline: 2px solid teal;
+	/* outline: 2px solid teal; */
 }
 
 .auth-nav .item + .item { 
@@ -75,7 +75,7 @@ ul {
 .site-nav {
 	display: flex;
 	margin-left: 93px;
-	outline: 1px solid black;
+	/* outline: 1px solid black; */
 }
 
 .site-nav .item + .item {
@@ -156,7 +156,7 @@ ul {
 .feature-list {
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 94px;
+	
 }
 
 .feature-item {	
@@ -240,7 +240,7 @@ ul {
 
 .section.features {
 	padding-bottom: 0;
-	margin-bottom: 0;
+	/* margin-bottom: 0; */
 	/* padding-top: 0; */
 }
 

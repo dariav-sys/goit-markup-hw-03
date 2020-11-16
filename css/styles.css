@@ -47,9 +47,10 @@ ul {
 
 /* Main nav */
 
-.main-nav {
+.container.main-nav {
 	display: flex;
 	align-items: center;
+	
 }
 
 .site-nav .link:hover,
@@ -57,9 +58,20 @@ ul {
 	color: var(--accent-color);
 }
 
+.container.header {
+	display: flex;
+	/* width: 1200px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:auto;
+	margin-right:auto; */
+	justify-content: space-between;
+}
+
 .site-nav {
 	display: flex;
-	margin-left: auto;
+	margin-left: 93px;
+	outline: 1px solid black;
 }
 
 .site-nav .item + .item {
@@ -83,7 +95,9 @@ ul {
 
 .auth-nav {
 	display: flex;
-	margin-left: 331px;
+	
+	
+	outline: 2px solid teal;
 }
 
 .auth-nav .item + .item {

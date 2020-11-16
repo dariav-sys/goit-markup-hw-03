@@ -321,6 +321,11 @@ ul {
 	top: 174px;
 }
 
+.portfolio-button.all {
+	padding: 6px 22px 6px 22px;
+	align-self: center;
+}
+
 .portfolio-button:last-child {
 	margin-right: 0;
 }

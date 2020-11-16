@@ -141,6 +141,7 @@ ul {
 	border: var(--accent-color);
 	margin-top: 30px;
 	margin-bottom: 200px;
+	padding: 10px 32px;
 }
 
 .feature-list {

@@ -180,7 +180,7 @@ ul {
 
 .section {
 	padding-top: 94px;
-	padding-botton:94px;
+	padding-bottom:94px;
 }
 
 .section-title {
@@ -193,7 +193,7 @@ ul {
 
 .section-picture {	
 	display: flex;
-	margin-bottom: 94px;	
+	/* margin-bottom: 94px;	 */
 	
 }
 
@@ -234,12 +234,12 @@ ul {
 .section.team {	
 	background-color: #f5f4fa;
 	padding-top: 0;	
-	padding-bottom: 94px;
+	/* padding-bottom: 94px; */
 }
 
 .team-employees {
 	display: flex;
-	marging-top: 94px;
+	/* marging-top: 94px; */
 	text-align: center;	
 }
 

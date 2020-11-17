@@ -21,6 +21,8 @@ ul {
 }
 
 
+
+
 .container {
 	/* outline: 1px solid greenyellow; */
 	width: 1200px;
@@ -160,30 +162,32 @@ header {
 	padding: 10px 32px;
 }
 
-.flex-list {
-	display: flex;
-	flex-wrap: wrap;	
-}
-
-
-.flex-item {	
-	width: 270px;
-	margin-right: 30px;
-	/* outline: 2px solid tomato; */
-}
-
-.flex-item:last-child {
-	margin-right: 0;
+.feature-list {
+	display: flex;	
 }
 
 .feature-list .title {
 	
 	font-weight: bold;
 	font-size: 14px;
-	line-height: 1.2;
-	
-	margin-top: 0;
+	line-height: 1.2;	
+	margin-top: 0;	
 	text-transform: uppercase;
+	outline: 1px solid red;
+}
+
+.feature-list .text {
+	width: 270px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.7;		
+	color: #757575;
+	outline: 2px solid red;
+}
+
+.feature-item:last-child {
+	margin-right: 0;
 }
 
 .section {
@@ -215,8 +219,11 @@ header {
 	margin-right: 0;
 }
 
-.feature-list {
-	display: flex;
+
+
+.feature-item {
+	margin-right: 30px;
+	/* outline: 2px solid red; */
 }
 
 
@@ -239,9 +246,7 @@ header {
 }
 
 .section.features {
-	padding-bottom: 0;
-	/* margin-bottom: 0; */
-	/* padding-top: 0; */
+	padding-bottom: 0;	
 }
 
 .team-employees {
@@ -295,9 +300,7 @@ header {
 	display: flex;	
 	flex-wrap: wrap;	
 	margin-bottom: 50px;
-	justify-content: center;
-
-	
+	justify-content: center;	
 }
 
 .buttons .item {
@@ -360,17 +363,23 @@ a {
 	margin-right: 30px;
 }
 
+
 .flex-list {
-	display: flex;	
+	display: flex;
+	flex-wrap: wrap;	
 }
 
-.flex-item {
+.flex-item {	
 	width: 370px;
 	margin-right: 30px;
 	margin-bottom: 30px;
-	border: 1px solid #ECECEC;	
+	
+	/* outline: 2px solid tomato; */
 }
 
+.flex-item:last-child {
+	margin-right: 0;
+}
 
 .project-item {
 	padding: 20px 24px;	
